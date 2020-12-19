@@ -15,12 +15,6 @@ div {
     padding: 50px;
 }
 }
-#growing {
-    transition: font-size 3s, color 2s;
-    font-color: black;
-    font-style: strong;
-    border: none;
-  }
 
 .tooltip {
     position: relative;
