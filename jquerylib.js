@@ -1,6 +1,5 @@
-$(document).scroll(function(){
-    $("#growing").animate({fontSize: '50px'});
-});
+$("#growing").animate({fontSize: '50px'});
+
 
 $("#slide1").click(function() {
     $(this).hide();
