@@ -8,12 +8,13 @@ body {
 div {
     padding:25px;
 }
+@media only screen and (min-width: 800px) {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 50px;
 }
-
+}
 #growing {
     transition: font-size 3s, color 2s;
     font-color: black;
