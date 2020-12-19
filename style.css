@@ -10,7 +10,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 100px;
+    padding: 50px;
 }
 
 #growing {
