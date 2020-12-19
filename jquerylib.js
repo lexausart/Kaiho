@@ -1,6 +1,5 @@
 $("#growing").animate({fontSize: '50px'});
 
-
 $("#slide1").click(function() {
     $(this).hide();
     $("#slide2").show();
