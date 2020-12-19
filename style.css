@@ -9,7 +9,6 @@ div {
     padding:25px;
 }
 
-
 .tooltip {
     position: relative;
     display: inline-block;
@@ -33,28 +32,36 @@ div {
     opacity: 80%;
   }
   
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
-  @keyframes Kaira-yell {
-    from {font-size:25px;}
-    to {font-size:40px;}
-    
-  }
+/* Waiting Room */
 
- #yell-id {
-    height: 100px;
-    animation-name: Kaira-yell;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
+#slide2 {
+  display:none;
+}
+#slide3 {
+  display:none;
+}
+#slide4 {
+  display:none;
+}
+#slide5 {
+  display:none;
+}
 
-.mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center; 
+@keyframes Kaira-yell {
+  from {font-size:25px;}
+  to {font-size:40px;}
+}
+
+.yell {
+  height: 100px;
+  animation-name: Kaira-yell;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 span {
