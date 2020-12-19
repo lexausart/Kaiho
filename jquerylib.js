@@ -1,5 +1,3 @@
-$(document).ready(function(){
-$("#growing").hover(function(){
+$(document).scroll(function(){
     $("#growing").animate({fontSize: '50px'});
-});
 });

@@ -8,13 +8,7 @@ body {
 div {
     padding:25px;
 }
-@media (min-width: 800px) {
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 50px;
-}
-}
+
 
 .tooltip {
     position: relative;
