@@ -12,3 +12,7 @@ body {
     grid-template-columns: auto auto;
     padding: 100px;
 }
+
+#growing {
+    transition: font-size 3s, color 2s;
+  }
