@@ -10,12 +10,21 @@ div {
     padding:25px;
 }
 
-@media (min-width:800){
-  #grid-container {
+img {
+  width: 100%;
+}
+
+@media (min-width:800px){
+  .grid-container {
     display: grid;
-    grid-template: auto auto;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  img {
+    width: 50%;
   }
 }
+
 .tooltip {
     position: relative;
     display: inline-block;
